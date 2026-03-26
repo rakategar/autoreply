@@ -1,0 +1,22 @@
+{
+  "name": "autoreply",
+  "version": "1.0.0",
+  "description": "Auto reply configuration",
+  "settings": {
+    "enabled": true,
+    "delay": 1000,
+    "maxRetries": 3
+  },
+  "messages": [
+    {
+      "id": 1,
+      "trigger": "hello",
+      "response": "Hi there! How can I help you?"
+    },
+    {
+      "id": 2,
+      "trigger": "help",
+      "response": "I'm here to assist you. What do you need help with?"
+    }
+  ]
+}
